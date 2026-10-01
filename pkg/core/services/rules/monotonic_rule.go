@@ -3,8 +3,8 @@ package rules
 import (
 	"fmt"
 
-	"github.com/renjie/prism-core/pkg/core/domain"
-	"github.com/renjie/prism-core/pkg/core/ports"
+	"github.com/RenJieWeia/prism-core/pkg/core/domain"
+	"github.com/RenJieWeia/prism-core/pkg/core/ports"
 )
 
 // MonotonicRule 单调性检查规则

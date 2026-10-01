@@ -3,7 +3,7 @@ package ports
 import (
 	"context"
 
-	"github.com/renjie/prism-core/pkg/core/domain"
+	"github.com/RenJieWeia/prism-core/pkg/core/domain"
 )
 
 // CleaningContext 清洗规则执行时的上下文信息

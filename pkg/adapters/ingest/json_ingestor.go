@@ -8,7 +8,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/renjie/prism-core/pkg/core/domain"
+	"github.com/RenJieWeia/prism-core/pkg/core/domain"
 )
 
 // JsonUniversalIngestor 实现 UniversalIngestor 接口

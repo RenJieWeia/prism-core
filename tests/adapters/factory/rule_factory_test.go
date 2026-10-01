@@ -3,9 +3,9 @@ package factory_test
 import (
 	"testing"
 
-	"github.com/renjie/prism-core/pkg/adapters/factory"
-	"github.com/renjie/prism-core/pkg/core/domain"
-	"github.com/renjie/prism-core/pkg/core/ports"
+	"github.com/RenJieWeia/prism-core/pkg/adapters/factory"
+	"github.com/RenJieWeia/prism-core/pkg/core/domain"
+	"github.com/RenJieWeia/prism-core/pkg/core/ports"
 )
 
 func TestRuleFactoryCreate(t *testing.T) {

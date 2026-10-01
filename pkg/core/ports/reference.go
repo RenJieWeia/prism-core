@@ -3,7 +3,7 @@ package ports
 import (
 	"context"
 
-	"github.com/renjie/prism-core/pkg/core/domain"
+	"github.com/RenJieWeia/prism-core/pkg/core/domain"
 )
 
 // ReferenceSource 参考数据查询端口

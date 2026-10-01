@@ -3,8 +3,8 @@ package rules
 import (
 	"fmt"
 
-	"github.com/renjie/prism-core/pkg/core/domain"
-	"github.com/renjie/prism-core/pkg/core/ports"
+	"github.com/RenJieWeia/prism-core/pkg/core/domain"
+	"github.com/RenJieWeia/prism-core/pkg/core/ports"
 )
 
 // RangeRule 实现数值范围检查

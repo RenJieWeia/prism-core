@@ -3,8 +3,8 @@ package sink
 import (
 	"context"
 
-	"github.com/renjie/prism-core/pkg/core/domain"
-	"github.com/renjie/prism-core/pkg/core/ports"
+	"github.com/RenJieWeia/prism-core/pkg/core/domain"
+	"github.com/RenJieWeia/prism-core/pkg/core/ports"
 )
 
 // RepositorySink 仓储输出端口

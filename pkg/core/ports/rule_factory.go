@@ -1,6 +1,6 @@
 package ports
 
-import "github.com/renjie/prism-core/pkg/core/domain"
+import "github.com/RenJieWeia/prism-core/pkg/core/domain"
 
 // CleaningRuleFactory 清洗规则工厂接口
 // 职责：根据规则配置（domain.CleaningRule）实例化可执行的清洗规则。

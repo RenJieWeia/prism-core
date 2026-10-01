@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/renjie/prism-core/pkg/core/domain"
-	"github.com/renjie/prism-core/pkg/core/ports"
-	"github.com/renjie/prism-core/pkg/core/services/rules"
+	"github.com/RenJieWeia/prism-core/pkg/core/domain"
+	"github.com/RenJieWeia/prism-core/pkg/core/ports"
+	"github.com/RenJieWeia/prism-core/pkg/core/services/rules"
 )
 
 // RuleBuilder defines the contract for creating a specific rule logic

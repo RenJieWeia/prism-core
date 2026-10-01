@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/renjie/prism-core/pkg/core/domain"
-	"github.com/renjie/prism-core/pkg/core/ports"
+	"github.com/RenJieWeia/prism-core/pkg/core/domain"
+	"github.com/RenJieWeia/prism-core/pkg/core/ports"
 )
 
 // QuarantineSink 隔离数据输出端口

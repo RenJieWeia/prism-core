@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/renjie/prism-core/pkg/core/ports"
-	"github.com/renjie/prism-core/pkg/core/services"
+	"github.com/RenJieWeia/prism-core/pkg/core/ports"
+	"github.com/RenJieWeia/prism-core/pkg/core/services"
 )
 
 // 编译期断言: 原有公开接口保持不变，实现同时满足旧接口与新扩展接口。

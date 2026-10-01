@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/renjie/prism-core/pkg/adapters/factory"
-	"github.com/renjie/prism-core/pkg/core/domain"
-	"github.com/renjie/prism-core/pkg/core/ports"
-	"github.com/renjie/prism-core/pkg/core/services"
+	"github.com/RenJieWeia/prism-core/pkg/adapters/factory"
+	"github.com/RenJieWeia/prism-core/pkg/core/domain"
+	"github.com/RenJieWeia/prism-core/pkg/core/ports"
+	"github.com/RenJieWeia/prism-core/pkg/core/services"
 )
 
 // fakeRuleRepo 内存版规则仓储 (测试用)

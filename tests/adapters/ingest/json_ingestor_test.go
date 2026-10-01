@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/renjie/prism-core/pkg/adapters/ingest"
-	"github.com/renjie/prism-core/pkg/core/domain"
+	"github.com/RenJieWeia/prism-core/pkg/adapters/ingest"
+	"github.com/RenJieWeia/prism-core/pkg/core/domain"
 )
 
 func collectDownstream() (func(context.Context, []domain.Reading) error, *[]domain.Reading) {

@@ -3,7 +3,7 @@ package domain_test
 import (
 	"testing"
 
-	"github.com/renjie/prism-core/pkg/core/domain"
+	"github.com/RenJieWeia/prism-core/pkg/core/domain"
 )
 
 // 文档化 MetricUnifier 的 math.Round 行为

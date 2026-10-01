@@ -3,7 +3,7 @@ package sink
 import (
 	"context"
 
-	"github.com/renjie/prism-core/pkg/core/domain"
+	"github.com/RenJieWeia/prism-core/pkg/core/domain"
 )
 
 // CallbackSink 回调输出端口

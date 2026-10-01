@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/renjie/prism-core/pkg/core/domain"
-	"github.com/renjie/prism-core/pkg/core/services"
-	"github.com/renjie/prism-core/pkg/core/services/rules"
+	"github.com/RenJieWeia/prism-core/pkg/core/domain"
+	"github.com/RenJieWeia/prism-core/pkg/core/services"
+	"github.com/RenJieWeia/prism-core/pkg/core/services/rules"
 )
 
 // TestProcessReturnsFullResult 验证 Process 返回完整处理结果

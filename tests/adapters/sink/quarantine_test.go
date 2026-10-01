@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/renjie/prism-core/pkg/adapters/sink"
-	"github.com/renjie/prism-core/pkg/core/domain"
-	"github.com/renjie/prism-core/pkg/core/ports"
+	"github.com/RenJieWeia/prism-core/pkg/adapters/sink"
+	"github.com/RenJieWeia/prism-core/pkg/core/domain"
+	"github.com/RenJieWeia/prism-core/pkg/core/ports"
 )
 
 // quarantineRecorder 记录保存的隔离数据并支持注入错误/检测 ctx

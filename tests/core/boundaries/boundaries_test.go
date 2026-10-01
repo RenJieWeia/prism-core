@@ -25,8 +25,8 @@ func repoRoot(t *testing.T) string {
 // 数据库、HTTP、日志等外部设施。
 func TestCoreImportBoundaries(t *testing.T) {
 	forbidden := []string{
-		"github.com/renjie/prism-core/pkg/application",
-		"github.com/renjie/prism-core/pkg/adapters",
+		"github.com/RenJieWeia/prism-core/pkg/application",
+		"github.com/RenJieWeia/prism-core/pkg/adapters",
 		"database/sql",
 		"net/http",
 		"log",

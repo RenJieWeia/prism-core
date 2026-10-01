@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/renjie/prism-core/pkg/core/domain"
-	"github.com/renjie/prism-core/pkg/core/ports"
+	"github.com/RenJieWeia/prism-core/pkg/core/domain"
+	"github.com/RenJieWeia/prism-core/pkg/core/ports"
 )
 
 // cleanWithDynamicRules 根据设备类型动态加载规则进行清洗

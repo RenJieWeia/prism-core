@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/renjie/prism-core/pkg/core/domain"
+	"github.com/RenJieWeia/prism-core/pkg/core/domain"
 )
 
 // UpsertStrategy 定义数据持久化时的冲突解决策略

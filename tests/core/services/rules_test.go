@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/renjie/prism-core/pkg/core/domain"
-	"github.com/renjie/prism-core/pkg/core/ports"
-	"github.com/renjie/prism-core/pkg/core/services/rules"
+	"github.com/RenJieWeia/prism-core/pkg/core/domain"
+	"github.com/RenJieWeia/prism-core/pkg/core/ports"
+	"github.com/RenJieWeia/prism-core/pkg/core/services/rules"
 )
 
 func helperReading(ts time.Time, v float64) domain.Reading {

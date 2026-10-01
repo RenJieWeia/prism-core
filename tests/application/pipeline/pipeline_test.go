@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/renjie/prism-core/pkg/adapters/sink"
-	"github.com/renjie/prism-core/pkg/application/pipeline"
-	"github.com/renjie/prism-core/pkg/core/domain"
-	"github.com/renjie/prism-core/pkg/core/ports"
-	"github.com/renjie/prism-core/pkg/core/services"
-	"github.com/renjie/prism-core/pkg/core/services/rules"
+	"github.com/RenJieWeia/prism-core/pkg/adapters/sink"
+	"github.com/RenJieWeia/prism-core/pkg/application/pipeline"
+	"github.com/RenJieWeia/prism-core/pkg/core/domain"
+	"github.com/RenJieWeia/prism-core/pkg/core/ports"
+	"github.com/RenJieWeia/prism-core/pkg/core/services"
+	"github.com/RenJieWeia/prism-core/pkg/core/services/rules"
 )
 
 // recordingRepo 记录 SaveBatch 保存的标准数据

@@ -80,7 +80,7 @@ prism-core/
 ### 安装
 
 ```bash
-go get github.com/renjie/prism-core
+go get github.com/RenJieWeia/prism-core
 ```
 
 使用 `JsonUniversalIngestor` 从文件或网络流中读取原始数据。
@@ -90,9 +90,9 @@ import (
     "context"
     "fmt"
     "os"
-    "github.com/renjie/prism-core/pkg/adapters/ingest"
-    "github.com/renjie/prism-core/pkg/core/services"
-    "github.com/renjie/prism-core/pkg/core/domain"
+    "github.com/RenJieWeia/prism-core/pkg/adapters/ingest"
+    "github.com/RenJieWeia/prism-core/pkg/core/services"
+    "github.com/RenJieWeia/prism-core/pkg/core/domain"
 )
 
 // 定义数据接收回调（模拟“下游”处理）
@@ -121,9 +121,9 @@ ingestor.IngestStream(context.Background(), file)
 ```go
 import (
     "time"
-    "github.com/renjie/prism-core/pkg/core/services"
-    "github.com/renjie/prism-core/pkg/core/services/rules"
-    "github.com/renjie/prism-core/pkg/core/domain"
+    "github.com/RenJieWeia/prism-core/pkg/core/services"
+    "github.com/RenJieWeia/prism-core/pkg/core/services/rules"
+    "github.com/RenJieWeia/prism-core/pkg/core/domain"
 )
 
 // 使用内置的 RangeRule (范围检查)
@@ -169,9 +169,9 @@ for _, res := range results {
 
 ```go
 import (
-    "github.com/renjie/prism-core/pkg/adapters/sink"
-    "github.com/renjie/prism-core/pkg/application/pipeline"
-    "github.com/renjie/prism-core/pkg/core/services"
+    "github.com/RenJieWeia/prism-core/pkg/adapters/sink"
+    "github.com/RenJieWeia/prism-core/pkg/application/pipeline"
+    "github.com/RenJieWeia/prism-core/pkg/core/services"
 )
 
 proc := services.NewEnergyDataProcessor() // Core: 清洗 + 标准化
@@ -192,7 +192,7 @@ result, err := pl.Execute(ctx, rawReadings)
 按设备类型从仓储加载清洗规则时，需要同时注入规则仓储与规则工厂：
 
 ```go
-import "github.com/renjie/prism-core/pkg/adapters/factory" // 具体工厂实现 (基础设施层)
+import "github.com/RenJieWeia/prism-core/pkg/adapters/factory" // 具体工厂实现 (基础设施层)
 
 standardizer := services.NewCoreStandardizer(
     services.WithRuleRepository(ruleRepo),   // 实现 ports.CleaningRuleRepository
@@ -207,7 +207,7 @@ standardizer := services.NewCoreStandardizer(
 规则可比较"当前数据 vs 参考数据"。实现 `ports.ReferenceCleaningRule` 并通过 `domain.ReferenceSpec` 声明所需参考对象：
 
 ```go
-import "github.com/renjie/prism-core/pkg/core/domain"
+import "github.com/RenJieWeia/prism-core/pkg/core/domain"
 
 // 示例: 同一设备三天前的值 (以当前读数 Timestamp 为基准, 不使用 time.Now())
 spec := domain.ReferenceSpec{
@@ -241,9 +241,9 @@ func (r *RefGeRule) CheckWithReferences(in domain.RuleInput) ports.CheckResult {
 
 ```go
 import (
-    "github.com/renjie/prism-core/pkg/adapters/reference"
-    "github.com/renjie/prism-core/pkg/application/pipeline"
-    "github.com/renjie/prism-core/pkg/core/services"
+    "github.com/RenJieWeia/prism-core/pkg/adapters/reference"
+    "github.com/RenJieWeia/prism-core/pkg/application/pipeline"
+    "github.com/RenJieWeia/prism-core/pkg/core/services"
 )
 
 // Core 处理器: 清洗 + 参考解析 + 标准化

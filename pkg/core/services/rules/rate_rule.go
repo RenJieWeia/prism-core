@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/renjie/prism-core/pkg/core/domain"
-	"github.com/renjie/prism-core/pkg/core/ports"
+	"github.com/RenJieWeia/prism-core/pkg/core/domain"
+	"github.com/RenJieWeia/prism-core/pkg/core/ports"
 )
 
 // RateRule 变化率检查规则 (对应 README 中的 JumpRule)

@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/renjie/prism-core/pkg/adapters/reference"
-	"github.com/renjie/prism-core/pkg/core/domain"
-	"github.com/renjie/prism-core/pkg/core/ports"
-	"github.com/renjie/prism-core/pkg/core/services"
+	"github.com/RenJieWeia/prism-core/pkg/adapters/reference"
+	"github.com/RenJieWeia/prism-core/pkg/core/domain"
+	"github.com/RenJieWeia/prism-core/pkg/core/ports"
+	"github.com/RenJieWeia/prism-core/pkg/core/services"
 )
 
 // negativeOffsetSpec 负 Offset 的 RELATIVE 参考对象 (非法配置)

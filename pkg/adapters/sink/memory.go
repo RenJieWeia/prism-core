@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/renjie/prism-core/pkg/core/domain"
+	"github.com/RenJieWeia/prism-core/pkg/core/domain"
 )
 
 // MemorySink 内存输出端口

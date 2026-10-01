@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/renjie/prism-core/pkg/adapters/reference"
-	"github.com/renjie/prism-core/pkg/core/domain"
-	"github.com/renjie/prism-core/pkg/core/ports"
-	"github.com/renjie/prism-core/pkg/core/services"
-	"github.com/renjie/prism-core/pkg/core/services/rules"
+	"github.com/RenJieWeia/prism-core/pkg/adapters/reference"
+	"github.com/RenJieWeia/prism-core/pkg/core/domain"
+	"github.com/RenJieWeia/prism-core/pkg/core/ports"
+	"github.com/RenJieWeia/prism-core/pkg/core/services"
+	"github.com/RenJieWeia/prism-core/pkg/core/services/rules"
 )
 
 // referenceCompareRule 测试用参考规则: 当前值 与 参考值 比较

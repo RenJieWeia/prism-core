@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/renjie/prism-core/pkg/core/domain"
+	"github.com/RenJieWeia/prism-core/pkg/core/domain"
 )
 
 // TestBuildReferenceRequestRelativeTarget 验证相对时间点参考的请求构建

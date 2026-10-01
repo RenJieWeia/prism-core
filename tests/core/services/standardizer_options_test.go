@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/renjie/prism-core/pkg/core/domain"
-	"github.com/renjie/prism-core/pkg/core/services"
+	"github.com/RenJieWeia/prism-core/pkg/core/domain"
+	"github.com/RenJieWeia/prism-core/pkg/core/services"
 )
 
 func TestWithPrecision(t *testing.T) {

@@ -73,7 +73,7 @@ prism-core/
 ### Installation
 
 ```bash
-go get github.com/renjie/prism-core
+go get github.com/RenJieWeia/prism-core
 ```
 
 ### Usage Example
@@ -88,9 +88,9 @@ import (
     "time"
 
     // Import from the public package path
-    "github.com/renjie/prism-core/pkg/adapters/ingest"
-    "github.com/renjie/prism-core/pkg/core/domain"
-    "github.com/renjie/prism-core/pkg/core/services"
+    "github.com/RenJieWeia/prism-core/pkg/adapters/ingest"
+    "github.com/RenJieWeia/prism-core/pkg/core/domain"
+    "github.com/RenJieWeia/prism-core/pkg/core/services"
 )
 
 func main() {
@@ -165,7 +165,7 @@ svc := services.NewCoreStandardizer(services.WithCleaningRules(&MaxLimitRule{100
 For **dynamic rule loading** (rules configured per device type in a repository), you must inject both a rule repository and a rule factory:
 
 ```go
-import "github.com/renjie/prism-core/pkg/adapters/factory" // concrete factory (infrastructure layer)
+import "github.com/RenJieWeia/prism-core/pkg/adapters/factory" // concrete factory (infrastructure layer)
 
 svc := services.NewCoreStandardizer(
     services.WithRuleRepository(ruleRepo),   // ports.CleaningRuleRepository
@@ -200,7 +200,7 @@ snapshot := aligner.FindSnapshot(sortedReadings, targetTime)
 Rules can compare the current reading against reference data instead of only the previous reading. Implement `ports.ReferenceCleaningRule` and declare what data the rule needs via `domain.ReferenceSpec`:
 
 ```go
-import "github.com/renjie/prism-core/pkg/core/domain"
+import "github.com/RenJieWeia/prism-core/pkg/core/domain"
 
 // spec: 同一设备三天前的值 (以当前读数 Timestamp 为基准, 不使用 time.Now())
 spec := domain.ReferenceSpec{
@@ -230,10 +230,10 @@ Wire the rule, an optional historical reference source, and get the full result:
 
 ```go
 import (
-    "github.com/renjie/prism-core/pkg/adapters/reference"
-    "github.com/renjie/prism-core/pkg/adapters/sink"
-    "github.com/renjie/prism-core/pkg/application/pipeline"
-    "github.com/renjie/prism-core/pkg/core/services"
+    "github.com/RenJieWeia/prism-core/pkg/adapters/reference"
+    "github.com/RenJieWeia/prism-core/pkg/adapters/sink"
+    "github.com/RenJieWeia/prism-core/pkg/application/pipeline"
+    "github.com/RenJieWeia/prism-core/pkg/core/services"
 )
 
 // Core processor: cleaning + reference resolution + standardization only.

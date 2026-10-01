@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/renjie/prism-core/pkg/core/domain"
+	"github.com/RenJieWeia/prism-core/pkg/core/domain"
 )
 
 // CsvUniversalIngestor 实现 UniversalIngestor 接口
