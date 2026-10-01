@@ -18,3 +18,9 @@ profile.out
 # OS
 .DS_Store
 Thumbs.db
+
+# Local Go toolchain scratch (sandbox-local install artifacts)
+.gocache/
+.gopath/
+.gotmp/
+.tools/
